@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toast.makeText(this, "In onCreate", Toast.LENGTH_SHORT).show();
-        Log.i("info", "In onCreate 5");
+        Log.i("info", "In onCreate 6");
     }
 
     @Override
