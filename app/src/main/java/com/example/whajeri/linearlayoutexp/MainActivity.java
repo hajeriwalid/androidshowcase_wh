@@ -19,6 +19,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             on Create -> on Start -> onResume
             onPause -> onStop -> onDestroy
         - simple UI interaction with onClickListener
+
+
+        Credits :
+            freely adapted from
+                - Android Programming for Beginners - John Horton
+                - Android Development for Beginners - Udacity
+
       */
 
 
@@ -109,6 +116,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Log.i("info", "In onResume");
     }
 
+
+    /**
+     * Sample way to interact
+     * @param v
+     */
     @Override
     public void onClick(View v) {
 
@@ -125,4 +137,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
     }
+
+
+    /**
+     *
+    Example : how to add a new button to a layout
+     // Create a new LinearLayout
+     LinearLayout linearLayout = new LinearLayout();
+
+     // Create a new Button
+     Button myButton = new Button();
+
+     // Add myButton to the LinearLayout
+     linearLayout.addView(myButton);
+
+     // Make the LinearLayout the main view
+     setContentView(linearLayout);
+
+     *
+     */
+
+
+
 }
