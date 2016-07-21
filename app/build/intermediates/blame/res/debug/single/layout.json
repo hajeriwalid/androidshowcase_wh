@@ -8,6 +8,10 @@
         "source": "C:\\Users\\whajeri\\AndroidStudioProjects\\LinearLayoutExp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "C:\\Users\\whajeri\\AndroidStudioProjects\\LinearLayoutExp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_prefs.xml",
+        "source": "C:\\Users\\whajeri\\AndroidStudioProjects\\LinearLayoutExp\\app\\src\\main\\res\\layout\\dialog_prefs.xml"
+    },
+    {
         "merged": "C:\\Users\\whajeri\\AndroidStudioProjects\\LinearLayoutExp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\whajeri\\AndroidStudioProjects\\LinearLayoutExp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_title_item.xml"
     },

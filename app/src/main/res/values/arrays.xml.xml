@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="prefs_array">
+        <item>@string/pref_1</item>
+        <item>@string/pref_2</item>
+        <item>@string/pref_3</item>
+    </string-array>
+</resources>

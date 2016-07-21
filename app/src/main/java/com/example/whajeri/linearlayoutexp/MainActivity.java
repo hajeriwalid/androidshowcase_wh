@@ -1,5 +1,7 @@
 package com.example.whajeri.linearlayoutexp;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,12 +21,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             on Create -> on Start -> onResume
             onPause -> onStop -> onDestroy
         - simple UI interaction with onClickListener
+        - example of alert dialog window, implemented with DialogFragment
+        - example of using SharedPreferences key value set to store user preferences
 
-
-        Credits :
-            freely adapted from
-                - Android Programming for Beginners - John Horton
-                - Android Development for Beginners - Udacity
 
       */
 
@@ -68,6 +67,51 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnplus.setOnClickListener(this);
         btnminus.setOnClickListener(this);
         text_result.setOnClickListener(this);
+
+        Button button_edit_prefs = (Button) findViewById(R.id.button_edit_prefs);
+        Button button_show_prefs = (Button) findViewById(R.id.button_show_prefs);
+
+
+        final SharedPreferences sharedPref = this.getSharedPreferences("mesprefs", Context.MODE_PRIVATE);
+
+
+        button_edit_prefs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // Create a new DialogShowNote called dialog
+                MyPreferences dialog = new MyPreferences();
+
+                // Create the dialog
+                dialog.show(getFragmentManager(), "");
+            }
+        });
+
+
+        button_show_prefs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+
+                // simple test to read from our little key value set
+                String test_Read_pref_1 = sharedPref.getString(getString(R.string.pref_1), "not selected");
+                String test_Read_pref_2 = sharedPref.getString(getString(R.string.pref_2), "not selected");
+                String test_Read_pref_3 = sharedPref.getString(getString(R.string.pref_3), "not selected");
+
+                Log.i("info", "Here are user preferences : \n");
+                Log.i("info",  test_Read_pref_1 +"\n");
+                Log.i("info",  test_Read_pref_2 +"\n");
+                Log.i("info",  test_Read_pref_3 +"\n");
+
+                Toast.makeText(getApplication().getBaseContext(), "Preferences: " + "\n" + test_Read_pref_1 + "\n" +
+                        test_Read_pref_2 + "\n"+
+                        test_Read_pref_3 + "\n"
+                        ,
+                        Toast.LENGTH_SHORT).show();
+
+            }
+        });
 
     }
 
@@ -157,6 +201,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      *
      */
 
+    /**TODO
+     * import images
+     * https://developer.android.com/studio/write/vector-asset-studio.html
+     */
 
 
 }
