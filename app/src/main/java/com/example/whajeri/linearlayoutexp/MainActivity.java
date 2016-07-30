@@ -23,8 +23,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         - simple UI interaction with onClickListener
         - example of alert dialog window, implemented with DialogFragment
         - example of using SharedPreferences key value set to store user preferences
-
-
       */
 
 
