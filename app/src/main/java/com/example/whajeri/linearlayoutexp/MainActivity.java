@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * user should at this point be committed (usually to the ContentProvider holding the data).
      * <p/>
      * more info : https://developer.android.com/reference/android/app/Activity.html
+     * ok
      */
 
 
