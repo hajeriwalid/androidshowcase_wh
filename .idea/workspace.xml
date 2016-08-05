@@ -57,8 +57,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/whajeri/linearlayoutexp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48658317">
-              <caret line="24" column="84" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.11710677">
+              <caret line="32" column="99" selection-start-line="32" selection-start-column="99" selection-end-line="32" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -69,7 +69,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,7 +103,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,40 +125,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="892" column="0" selection-start-line="892" selection-start-column="0" selection-end-line="892" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#47018#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#4883#4884#0" expanded="false" />
-                <element signature="e#4915#4916#0" expanded="false" />
-                <element signature="e#7158#7159#0" expanded="false" />
-                <element signature="e#7205#7206#0" expanded="false" />
-                <element signature="e#9081#9082#0" expanded="false" />
-                <element signature="e#9133#9134#0" expanded="false" />
-                <element signature="e#9292#9293#0" expanded="false" />
-                <element signature="e#9335#9336#0" expanded="false" />
-                <element signature="e#9579#9580#0" expanded="false" />
-                <element signature="e#9633#9634#0" expanded="false" />
-                <element signature="e#9685#9686#0" expanded="false" />
-                <element signature="e#9727#9728#0" expanded="false" />
-                <element signature="e#9828#9829#0" expanded="false" />
-                <element signature="e#9864#9865#0" expanded="false" />
-                <element signature="e#10762#10763#0" expanded="false" />
-                <element signature="e#10821#10822#0" expanded="false" />
-                <element signature="e#12304#12305#0" expanded="false" />
-                <element signature="e#12357#12358#0" expanded="false" />
-                <element signature="e#12586#12587#0" expanded="false" />
-                <element signature="e#12639#12640#0" expanded="false" />
-                <element signature="e#12867#12868#0" expanded="false" />
-                <element signature="e#12919#12920#0" expanded="false" />
-                <element signature="e#14850#14851#0" expanded="false" />
-                <element signature="e#14887#14888#0" expanded="false" />
-                <element signature="e#14929#14930#0" expanded="false" />
-                <element signature="e#14965#14966#0" expanded="false" />
-                <element signature="e#16534#16535#0" expanded="false" />
-                <element signature="e#16603#16604#0" expanded="false" />
-                <element signature="e#18659#18660#0" expanded="false" />
-                <element signature="e#18700#18701#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1737,8 +1708,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1826,9 +1797,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
@@ -1847,13 +1816,11 @@
               <option name="myItemId" value="LinearLayoutExp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2255,8 +2222,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32703003" sideWeight="0.49520257" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32367972" sideWeight="0.4773071" order="12" side_tool="false" content_ui="tabs" />
@@ -2272,8 +2239,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32367972" sideWeight="0.5226929" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17473525" sideWeight="0.4925926" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430703" sideWeight="0.4925926" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -2286,6 +2252,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29850745" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2313,7 +2280,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/whajeri/linearlayoutexp/MainActivity.java</url>
-          <line>95</line>
+          <line>96</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -2709,40 +2676,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="892" column="0" selection-start-line="892" selection-start-column="0" selection-end-line="892" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47018#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4883#4884#0" expanded="false" />
-            <element signature="e#4915#4916#0" expanded="false" />
-            <element signature="e#7158#7159#0" expanded="false" />
-            <element signature="e#7205#7206#0" expanded="false" />
-            <element signature="e#9081#9082#0" expanded="false" />
-            <element signature="e#9133#9134#0" expanded="false" />
-            <element signature="e#9292#9293#0" expanded="false" />
-            <element signature="e#9335#9336#0" expanded="false" />
-            <element signature="e#9579#9580#0" expanded="false" />
-            <element signature="e#9633#9634#0" expanded="false" />
-            <element signature="e#9685#9686#0" expanded="false" />
-            <element signature="e#9727#9728#0" expanded="false" />
-            <element signature="e#9828#9829#0" expanded="false" />
-            <element signature="e#9864#9865#0" expanded="false" />
-            <element signature="e#10762#10763#0" expanded="false" />
-            <element signature="e#10821#10822#0" expanded="false" />
-            <element signature="e#12304#12305#0" expanded="false" />
-            <element signature="e#12357#12358#0" expanded="false" />
-            <element signature="e#12586#12587#0" expanded="false" />
-            <element signature="e#12639#12640#0" expanded="false" />
-            <element signature="e#12867#12868#0" expanded="false" />
-            <element signature="e#12919#12920#0" expanded="false" />
-            <element signature="e#14850#14851#0" expanded="false" />
-            <element signature="e#14887#14888#0" expanded="false" />
-            <element signature="e#14929#14930#0" expanded="false" />
-            <element signature="e#14965#14966#0" expanded="false" />
-            <element signature="e#16534#16535#0" expanded="false" />
-            <element signature="e#16603#16604#0" expanded="false" />
-            <element signature="e#18659#18660#0" expanded="false" />
-            <element signature="e#18700#18701#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2750,7 +2684,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2769,14 +2705,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/whajeri/linearlayoutexp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48658317">
-          <caret line="24" column="84" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.11710677">
+          <caret line="32" column="99" selection-start-line="32" selection-start-column="99" selection-end-line="32" selection-end-column="99" />
           <folding />
         </state>
       </provider>
